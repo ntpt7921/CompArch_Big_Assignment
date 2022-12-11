@@ -292,6 +292,9 @@ M_GET_SINGLE_FLOAT_IEEE754($t2, $t3, $t4, $a0)
 jal		print_float_from_reg
 end_of_main_code:
 
+# exit
+li		$v0, 10
+syscall
 
 
 

@@ -1,0 +1,27 @@
+---
+### METADATA
+title: Title of document
+subtitle: Subtitle of document
+description: Some description
+author:
+- Someone that contribute
+- Some other person that contribute
+date: This will be automated
+abstract: Some abstract content
+subject: Some subject
+
+### DOCUMENT CONFIGURATION
+documentclass: article
+classoption:
+  - a4paper
+  - titlepage
+geometry:
+  - margin=1in
+numbersections: true
+colorlinks: true
+
+### FRONT MATTERS
+toc: true
+toc-depth: 2
+lof: false
+lot: false
