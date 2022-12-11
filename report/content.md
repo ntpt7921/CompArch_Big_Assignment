@@ -54,8 +54,8 @@ Ta cho rằng bộ xử lý này là đơn chu kì (không pileline). Với CPI 
 xử lý có thể được tính
 
 \begin{align*}
-\text{Time} &= \text{Clock Period} * \text{Instruction Count}
-            &= \frac{1}{CR} * 138
+\text{Time} &= \text{Clock Period} * \text{Instruction Count} \\
+            &= \frac{1}{CR} * 138 \\
             &= 138 \text{ns}
 \end{align*}
 

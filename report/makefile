@@ -14,5 +14,12 @@ latex:
 	-s \
 	-o output.tex \
 
+latex-standalone:
+	pandoc \
+	-tlatex \
+	--defaults='build_config.yaml' \
+	--metadata date="`date +%d/%m/%Y`" \
+	-o output.tex \
+
 clean:
 	rm -r output.*
